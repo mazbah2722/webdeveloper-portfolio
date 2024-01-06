@@ -1,0 +1,51 @@
+/* common shared style */
+body {
+    /* font-family: 'Fasthand', cursive; */
+    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Pacifico', cursive; */
+}
+
+.text-primary-color {
+    color: #FD6E0A;
+}
+
+.btn-primary {
+    background-color: #FD6E0A;
+    border-radius: 5px;
+    border: 0;
+    padding: 18px 36px;
+    color: white;
+    font-size: 20px;
+    
+    font-weight: 700;
+
+}
+
+/* nav related style */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #474747;
+}
+
+.nav-title {
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+
+}
